@@ -1,0 +1,26 @@
+{
+  "name": "focus-finder",
+  "version": "1.0.0",
+  "description": "Focus Finder - We sell certainty.",
+  "scripts": {
+    "start": "aio app run",
+    "build": "aio app build",
+    "deploy": "aio app deploy",
+    "undeploy": "aio app undeploy",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@adobe/aio-sdk": "^3.8.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "jest": "^26.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageReporters": ["text", "lcov"],
+    "testMatch": ["**/test/**/*.test.js"]
+  }
+}
