@@ -1,0 +1,18 @@
+application:
+  actions: actions
+  web: web-src
+  runtimeManifest:
+    packages:
+      focus-finder:
+        license: Apache-2.0
+        actions:
+          add-email:
+            function: actions/add-email/index.js
+            web: 'yes'
+            annotations:
+              require-adobe-auth: false
+          get-emails:
+            function: actions/get-emails/index.js
+            web: 'yes'
+            annotations:
+              require-adobe-auth: false

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+coverage/
+.env
+*.log
+.aio
+.parcel-cache/
+web-src/node_modules/
+web-src/dist/
